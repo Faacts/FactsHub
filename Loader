@@ -6,4 +6,7 @@ if game.PlaceId == 9957252500 then
 
     elseif game.PlaceId == 8884334497 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Mining-Clicker-Simulator/main/MiningClickerSimulator"))()
+
+    elseif game.PlaceId == 1962086868 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Tower-of-Hell/main/TowerofHell"))()
 end
