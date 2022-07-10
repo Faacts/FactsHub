@@ -1,9 +1,11 @@
-if game.PlaceId == 9957252500 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Lifting-Power-Simulator/main/LiftingPowerSimulator"))()
+if game.Players.LocalPlayer.PlayerScripts:FindFirstChild("LocalSharedMg") then
+    if game.PlaceId == 9957252500 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Lifting-Power-Simulator/main/LiftingPowerSimulator"))()
 
-    elseif game.PlaceId == 6429911702 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Masters-Difficulty-Chart-Obby/main/MastersDifficultyChartObby"))()
+        elseif game.PlaceId == 6429911702 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Masters-Difficulty-Chart-Obby/main/MastersDifficultyChartObby"))()
 
-    elseif game.PlaceId == 8884334497 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Mining-Clicker-Simulator/main/MiningClickerSimulator"))()
+        elseif game.PlaceId == 8884334497 then
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Mining-Clicker-Simulator/main/MiningClickerSimulator"))()
+    end
 end
