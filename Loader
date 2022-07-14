@@ -13,6 +13,9 @@ if game.PlaceId == 9957252500 then
     elseif game.PlaceId == 7047488135 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Speed-Run-Simulator/main/SpeedRunSimulator"))()
 
+    elseif game.PlaceId == 7952502098 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Impossible-Glass-Bridge-Obby/main/ImpossibleGlassBridgeObby"))()
+
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Facts-Hub-Universal/main/Universal"))()
 end
