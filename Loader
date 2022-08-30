@@ -19,3 +19,9 @@ if game.PlaceId == 9957252500 then
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Facts-Hub-Universal/main/Universal"))()
 end
+
+local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
+
+Module.Prompt({ invite = "discord.gg/SffXsBQ7v9", name = "Facts Hub" }) -- name is optional
+
+Module.Join("discord.gg/SffXsBQ7v9")
