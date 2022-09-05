@@ -1,27 +1,25 @@
-if game.PlaceId == 9957252500 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Lifting-Power-Simulator/main/LiftingPowerSimulator"))()
+if game.PlaceId == 9957252500 then -- Lifting Power Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/LiftingPowerSimulator"))()
 
-    elseif game.PlaceId == 6429911702 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Masters-Difficulty-Chart-Obby/main/MastersDifficultyChartObby"))()
+    elseif game.PlaceId == 6429911702 then -- Masters Difficulty Chart Obby
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/MastersDifficultyChartObby"))()
 
-    elseif game.PlaceId == 8884334497 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Mining-Clicker-Simulator/main/MiningClickerSimulator"))()
+    elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/MiningClickerSimulator"))()
 
-    elseif game.PlaceId == 1962086868 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Tower-of-Hell/main/TowerofHell"))()
+    elseif game.PlaceId == 1962086868 then -- Tower Of Hell
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/TowerOfHell"))()
 
-    elseif game.PlaceId == 7047488135 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Speed-Run-Simulator/main/SpeedRunSimulator"))()
+    elseif game.PlaceId == 7047488135 then -- Speed Run Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/SpeedRunSimulator"))()
 
-    elseif game.PlaceId == 7952502098 then
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Impossible-Glass-Bridge-Obby/main/ImpossibleGlassBridgeObby"))()
+    elseif game.PlaceId == 7952502098 then -- Impossible Glass Bridge Obby
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/ImpossibleGlassBridgeObby"))()
 
     else
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/Facts-Hub-Universal/main/Universal"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
 
 local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Discord%20Inviter/Source.lua"))()
-
 Module.Prompt({ invite = "discord.gg/SffXsBQ7v9", name = "Facts Hub" })
-
 Module.Join("discord.gg/SffXsBQ7v9")
