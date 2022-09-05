@@ -19,7 +19,3 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
-
-local Module = loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/DiscordJoiner/main/DiscordJoin"))()
-Module.Prompt({ invite = "discord.gg/SffXsBQ7v9", name = "Facts Hub" })
-Module.Join("discord.gg/SffXsBQ7v9")
