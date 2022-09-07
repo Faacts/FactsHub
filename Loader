@@ -16,6 +16,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     elseif game.PlaceId == 7952502098 then -- Impossible Glass Bridge Obby
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/ImpossibleGlassBridgeObby"))()
 
+    elseif game.PlaceId == 2537430692 then -- Jenga
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Jenga"))()
+
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
