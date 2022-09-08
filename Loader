@@ -22,7 +22,7 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
-wait(1)
+wait()
 syn.request({
    Url = "http://127.0.0.1:6463/rpc?v=1",
    Method = "POST",
