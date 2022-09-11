@@ -18,6 +18,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
 
     elseif game.PlaceId == 2537430692 then -- Jenga
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Jenga"))()
+    
+    elseif game.PlaceId == 9285238704 then -- Race Clicker
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RaceClicker"))()
 
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
