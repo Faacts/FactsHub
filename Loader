@@ -22,6 +22,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     elseif game.PlaceId == 9285238704 then -- Race Clicker
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RaceClicker"))()
 
+    elseif game.PlaceId == 10347946161 then -- Rat Washing Tycoon
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RatWashingTycoon"))()
+
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
