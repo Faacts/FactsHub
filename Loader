@@ -28,6 +28,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     elseif game.PlaceId == 6403373529 then -- Slap Battles
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/SlapBattles"))()
 
+    elseif game.PlaceId == 8674186618 then -- Crate Opening Simulator
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/CrateOpeningSimulator"))()
+
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
