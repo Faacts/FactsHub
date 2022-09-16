@@ -31,6 +31,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     elseif game.PlaceId == 8674186618 then -- Crate Opening Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/CrateOpeningSimulator"))()
 
+    elseif game.PlaceId == 10676523834 then -- Racing Rocket
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RacingRocket"))()
+
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
