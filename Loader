@@ -25,10 +25,7 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     elseif game.PlaceId == 10347946161 then -- Rat Washing Tycoon
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RatWashingTycoon"))()
 
-    elseif game.PlaceId == 6403373529 then -- Slap Battles
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/SlapBattles"))()
-
-    elseif game.PlaceId == 8674186618 then -- Crate Opening Simulator
+    elseif game.PlaceId == 8674186618 then -- Crate Opening Incremental
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/CrateOpeningSimulator"))()
 
     elseif game.PlaceId == 10676523834 then -- Racing Rocket
