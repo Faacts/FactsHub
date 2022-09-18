@@ -37,3 +37,9 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     else
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/Universal"))()
 end
+wait(1)
+game:GetService("StarterGui"):SetCore("SendNotification",{
+	Title = "discord.gg/wP6XfkXmAk",
+	Text = "Link Copied!",
+})
+setclipboard("discord.gg/wP6XfkXmAk")
