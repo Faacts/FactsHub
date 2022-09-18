@@ -26,7 +26,7 @@ if game.PlaceId == 9957252500 then -- Lifting Power Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RatWashingTycoon"))()
 
     elseif game.PlaceId == 8674186618 then -- Crate Opening Incremental
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/CrateOpeningSimulator"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/CrateOpeningIncremental"))()
 
     elseif game.PlaceId == 10676523834 then -- Racing Rocket
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/RacingRocket"))()
