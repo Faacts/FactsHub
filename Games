@@ -1,14 +1,8 @@
-if game.PlaceId == 9957252500 then -- Lifting Power Simulator
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/LiftingPowerSimulator"))()
-
-    elseif game.PlaceId == 6429911702 then -- Masters Difficulty Chart Obby
+if game.PlaceId == 6429911702 then -- Masters Difficulty Chart Obby
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/MastersDifficultyChartObby"))()
 
     elseif game.PlaceId == 8884334497 then -- Mining Clicker Simulator
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/MiningClickerSimulator"))()
-
-    elseif game.PlaceId == 1962086868 then -- Tower Of Hell
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ItsFacts/FactsHub/main/TowerOfHell"))()
 
     elseif game.PlaceId == 2537430692 then -- Jenga
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Jenga"))()
