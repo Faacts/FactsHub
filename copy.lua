@@ -24,7 +24,12 @@ end
  
 if hwid then
 	setclipboard(hwid)
-	game:GetService("Players").LocalPlayer:Kick('copied hwid to clipboard')
+	wait(0.5)
+	game.StarterGui:SetCore("SendNotification", {
+Title = "Got HWID"; -- the title (ofc)
+Text = "HWID Copied to clipboard!";
+Duration = 5; 
+})
 else
 	game:GetService("Players").LocalPlayer:Kick('unable to find hwid')
 end
