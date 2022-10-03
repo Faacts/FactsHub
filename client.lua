@@ -134,7 +134,8 @@ if data.StatusCode == 200 then
 	-- // if the request did not error...
 	local response = data.Body;
 	if response == hash(key) then
-		-- // wow, they are authenticated!
-		print("whitelisted!")
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/Games",true))();
+		else
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Faacts/FactsHub/main/KeySystem",true))();
 	end
 end
