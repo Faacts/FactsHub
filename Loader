@@ -18,6 +18,7 @@ local Games = {
     [6284583030] = "https://raw.githubusercontent.com/Faacts/Supported/main/PetSimX",
     [9551640993] = "https://raw.githubusercontent.com/Faacts/Supported/main/MiningSim2",
     [2653064683] = "https://raw.githubusercontent.com/Faacts/Supported/main/WordBomb",
+    [4866692557] = "https://raw.githubusercontent.com/Faacts/Supported/main/AgeOfHeroes",
     [1] = "https://raw.githubusercontent.com/Faacts/Supported/main/universal"
 }
 load = function(u)
