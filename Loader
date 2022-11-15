@@ -27,6 +27,7 @@ local Games = {
     [13822889] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/LT2",
     [11238892040] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/TypeOrDie",
     [8908228901] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SharkBite2",
+    [8750997647] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/TappingLegendsX",
     [1] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/universal"
 }
 load = function(u)
