@@ -37,15 +37,9 @@ local Games = {
     [11402147065] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/RagdollClicker",
     [1] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/universal"
 }
-load = function(u)
-    return loadstring(game:HttpGet(u))()
+local script = function() 
+    if Games[game.PlaceId] then return game:HttpGet(Games[game.PlaceId]) 
+    else return game:HttpGet(Games[1]) 
+    end 
 end
-for i,v in pairs(Games) do
-    if i == game.PlaceId then
-        load(v)
-        getgenv().b = ''
-    end
-end
-if not b then
-    load(Games[1])
-end
+loadstring(script())()
