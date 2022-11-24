@@ -35,6 +35,7 @@ local Games = {
     [11196588443] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/ZombieMergeTycoon",
     [10977918334] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/MergeDroppers",
     [11402147065] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/RagdollClicker",
+    [2619187362] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SPFS",
     [1] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/universal"
 }
 local script = function() 
