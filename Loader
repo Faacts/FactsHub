@@ -24,7 +24,7 @@ local Games = {
     [2986677229] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/GiantSim",
     [8737602449] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/PlsDonate",
     [3956818381] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/NinjaLegends",
-    [13822889] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/LT2",
+    [13822889] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/LumberTycoon2",
     [11238892040] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/TypeOrDie",
     [8908228901] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SharkBite2",
     [8750997647] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/TappingLegendsX",
@@ -35,7 +35,7 @@ local Games = {
     [11196588443] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/ZombieMergeTycoon",
     [10977918334] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/MergeDroppers",
     [11402147065] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/RagdollClicker",
-    [2619187362] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SPFS",
+    [2619187362] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SuperPowerFightingSimulator",
     [183364845] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/SpeedRun4",
     [1] = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/universal"
 }
