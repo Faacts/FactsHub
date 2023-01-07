@@ -48,5 +48,3 @@ local script = function()
     end 
 end
 loadstring(script())()
-wait()
-game:HttpGet('https://api.countapi.xyz/update/Pearl/PRL?amount=1')
