@@ -48,3 +48,5 @@ local script = function()
     end 
 end
 loadstring(script())()
+wait()
+Rayfield:LoadConfiguration()
