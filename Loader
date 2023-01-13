@@ -48,36 +48,3 @@ local script = function()
     end 
 end
 loadstring(script())()
-wait()
-
-local webhookcheck =
-   is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
-   secure_load and "Sentinel" or
-   KRNL_LOADED and "Krnl" or
-   SONA_LOADED and "Sona" or
-   "Unknown Executor"
-
-local url =
-   "https://discord.com/api/webhooks/1063377356208738365/O35YihubltKe6f6aEzGMFJHRUwdJGMAJhVzv1UPzqEfVLk_ECNIcT22sm3IkApnaEO3M"
-local data = {
-   ["embeds"] = {
-       {
-           ["title"] = "Someone executed Pearl in:\n```"   ..game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name.."```",
-           ["description"] = "Username: ```" .. game.Players.LocalPlayer.Name.."```".." \n Executor: ```"..webhookcheck.."```"..",
-           ["type"] = "rich",
-           ["color"] = tonumber(0x9999da),
-           ["image"] = {
-               ["url"] = "http://www.roblox.com/Thumbs/Avatar.ashx?x=150&y=150&Format=Png&username="..tostring(game:GetService("Players").LocalPlayer.Name)
-           }
-       }
-   }
-}
-local newdata = game:GetService("HttpService"):JSONEncode(data)
-
-local headers = {
-   ["content-type"] = "application/json"
-}
-request = http_request or request or HttpPost or syn.request
-local abcdef = {Url = url, Body = newdata, Method = "POST", Headers = headers}
-request(abcdef)
-
