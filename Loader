@@ -13,7 +13,6 @@ local Games = {
     [6839171747] = "DOORS",
     [5326405001] = "BaseBattles",
     [286090429] = "Arsenal",
-    [11729688377] = "booga",
     [9264596435] = "IdleHeroes",
     [6284583030] = "PetSimX",
     [9551640993] = "MiningSim2",
