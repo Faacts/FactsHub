@@ -39,6 +39,7 @@ local Games = {
     [5865858426] = "RetailTycoon2",
     [10925589760] = "MergeSimulator",
     [11989217843] = "FindTheFamilyGuy",
+    [12945702551] = "EndlessLuck",
     [1] = "universal"
 }
 local repo = "https://raw.githubusercontent.com/Faacts/FactsHub/main/Supported/"
